@@ -28,6 +28,7 @@
   --color-secondary: #333;
   --color-invert: #fefefe;
   --color-background: #f3f1ee;
+  --color-brand: #647b64;
 
   --color-text-action: #fefefe;
   --color-background-action: #66ac66;
@@ -183,13 +184,16 @@ p {
   padding: 32px 40px;
   border-radius: 8px;
   margin-bottom: 32px;
+  /* background-image: url('../images/smart-car.svg');
+  background-repeat: no-repeat; */
 }
 
 .advantage-card:hover {
   background-color: var(--color-invert);
 }
 
-.advantage-card-img {
+.advantage-card-icon {
+  fill: var(--color-brand);
   margin-bottom: 16px;
 }
 
